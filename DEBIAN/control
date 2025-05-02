@@ -1,0 +1,6 @@
+Package: deb-click-installer
+Version: 1.0
+Architecture: all
+Maintainer: YILUN JIN <jiny30409@gmail.com>
+Description: Allows double-click installation of .deb files with sudo auto-elevation
+Depends: xdg-utils

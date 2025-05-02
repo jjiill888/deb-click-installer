@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=DEB Silent Installer
+Exec=xfce4-terminal -e "/usr/local/bin/install-deb.sh %f"
+Icon=package-x-generic
+Type=Application
+Terminal=true
+MimeType=application/vnd.debian.binary-package;
+NoDisplay=false
+
+# For other desktop environments, consider replacing xfce4-terminal with:
+# gnome-terminal -e ...
+# konsole -e ...
+# xterm -e ...

@@ -1,0 +1,5 @@
+#!/bin/bash
+xdg-mime default deb-installer.desktop application/vnd.debian.binary-package
+
+# Ensure the install script is executable
+chmod +x /usr/local/bin/install-deb.sh
